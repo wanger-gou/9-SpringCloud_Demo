@@ -1,0 +1,13 @@
+server:
+  port: 8020
+
+spring:
+  application:
+    name: consumer  #配置微服务名称，后面需要通过微服务名称将微服务注册到Eureka server（注册中心）
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/ #注册中心的访问路径
+  instance:
+    prefer-ip-address: true #是否将当前微服务的IP注册到Eureka Server当中

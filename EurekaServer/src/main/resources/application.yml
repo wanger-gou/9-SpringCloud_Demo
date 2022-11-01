@@ -1,0 +1,10 @@
+server:
+  port: 8761 #当前注册中心的服务端口：8761
+
+#EurekaServer也是一个微服务
+eureka:
+  client:
+    register-with-eureka: false #是否将当前的Eureka Server服务作为客户端进行注册：false
+    fetch-registry: false #是否需要获取其他注册中心的数据：false
+    service-url:
+      defaultZone: http://localhost:8761/eureka/ #注册中心的访问路径

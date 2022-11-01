@@ -1,0 +1,15 @@
+server:
+  port: 8030
+
+spring:
+  application:
+    name: gateway  #配置微服务名称，后面需要通过微服务名称将微服务注册到Eureka server（注册中心）
+
+#Zuul也是一个微服务
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/ #注册中心的访问路径
+zuul:
+  routes:
+    provider: /p/**

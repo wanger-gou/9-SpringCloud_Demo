@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/ConfigClient_Native/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ConfigServer_Native/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/EurekaClient_1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/EurekaClient_Consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/EurekaClient_Provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/EurekaServer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Feign/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Hystrix/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/RestTemplate/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Ribbon_LoadBalance/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ZipkinClient/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ZipkinServer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Zuul_Gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

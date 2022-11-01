@@ -1,0 +1,16 @@
+server:
+  port: 9090
+spring:
+  application:
+    name: zipkinserver
+  main:
+    allow-bean-definition-overriding: true
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+management:
+  metrics:
+    web:
+      server:
+        auto-time-requests: false #关闭自动检测请求[解决Exception handling request to /zipkin/index.html]

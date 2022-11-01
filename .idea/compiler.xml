@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="EurekaServer" />
+        <module name="ConfigClient_Native" />
+        <module name="ZipkinClient" />
+        <module name="RestTemplate" />
+        <module name="EurekaClient_Consumer" />
+        <module name="Feign" />
+        <module name="EurekaClient_Provider" />
+        <module name="Hystrix" />
+        <module name="Zuul_Gateway" />
+        <module name="Ribbon_LoadBalance" />
+        <module name="ConfigServer_Native" />
+        <module name="ZipkinServer" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ConfigClient_Native" options="-parameters" />
+      <module name="ConfigServer_Native" options="-parameters" />
+      <module name="EurekaClient_Consumer" options="-parameters" />
+      <module name="EurekaClient_Provider" options="-parameters" />
+      <module name="EurekaServer" options="-parameters" />
+      <module name="Feign" options="-parameters" />
+      <module name="Hystrix" options="-parameters" />
+      <module name="RestTemplate" options="-parameters" />
+      <module name="Ribbon_LoadBalance" options="-parameters" />
+      <module name="ZipkinClient" options="-parameters" />
+      <module name="ZipkinServer" options="-parameters" />
+      <module name="Zuul_Gateway" options="-parameters" />
+    </option>
+  </component>
+</project>

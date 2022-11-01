@@ -1,0 +1,22 @@
+server:
+  port: 8060
+spring:
+  application:
+    name: hystrix
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true #是否将当前微服务的IP注册到Eureka Server当中(默认为false)
+feign:
+  hystrix:
+    enabled: true #feign开启Hystrix（默认为false）
+management:
+  endpoints:
+    web:
+      exposure:
+        include: 'hystrix.stream' #actuator通过 hystrix.stream 节点获取监控的请求数据
+hystrix:
+  dashboard:
+    proxy-stream-allow-list: "*"
